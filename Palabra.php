@@ -6,7 +6,7 @@
     <br>
     <?php
     $arreglo = ["baseball","cat,bas,hol,base,rar,pull,ball"];
-    $salida = explode(", ",$arreglo[1]);
+    $salida = explode(",",$arreglo[1]);
     for($i=0; $i < count($salida);$i++)
     {
         echo $salida[$i];
